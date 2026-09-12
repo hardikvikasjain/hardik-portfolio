@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hardik Vikas Jain — Computer Science and Engineering student at VIT Vellore specializing in Information Security, software development, cybersecurity and DSA.">
+    <meta name="theme-color" content="#070707">
+    
+    <!-- Open Graph & Twitter Meta Tags -->
+    <meta property="og:title" content="Hardik Vikas Jain | Developer & Security Enthusiast">
+    <meta property="og:description" content="CSE Information Security student at VIT Vellore building secure and modern digital systems.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hardikvikasjain.vercel.app">
+    <title>Hardik Vikas Jain | Developer & Security Enthusiast</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- BACKGROUND & CURSOR -->
+    <div class="background-grid" aria-hidden="true"></div>
+    <div class="mouse-glow" aria-hidden="true"></div>
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo" aria-label="Hardik Vikas Jain home">
+                HVJ<span>_</span>
+            </a>
+
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="#about">01.//ABOUT</a>
+                <a href="#skills">02.//STACK</a>
+                <a href="#projects">03.//PROJECTS</a>
+                <a href="#education">04.//EDUCATION</a>
+                <a href="#achievements">05.//VALIDATION</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="Resume.pdf" target="_blank" rel="noopener noreferrer" class="resume-button magnetic">
+                    resume.pdf <span>↗</span>
+                </a>
+                <a href="#contact" class="cli-button magnetic">init_contact()</a>
+            </div>
+
+            <!-- MOBILE BUTTON -->
+            <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#about">01.//ABOUT</a>
+            <a href="#skills">02.//STACK</a>
+            <a href="#projects">03.//PROJECTS</a>
+            <a href="#education">04.//EDUCATION</a>
+            <a href="#achievements">05.//VALIDATION</a>
+            <a href="#contact">06.//CONTACT</a>
+            <a href="Resume.pdf" target="_blank" rel="noopener noreferrer">resume.pdf ↗</a>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <!-- HERO TEXT -->
+                <div class="hero-text reveal">
+                    <div class="status">
+                        <span class="status-dot"></span>
+                        Open to software & security opportunities
+                    </div>
+                    <p class="eyebrow">COMPUTER SCIENCE • INFORMATION SECURITY</p>
+                    <h1>Hi, I'm <span class="gradient-text">Hardik.</span></h1>
+                    <h2>I engineer <span class="role-text">secure</span> & scalable systems.</h2>
+                    <p class="hero-description">
+                        Computer Science and Engineering student at Vellore Institute of Technology specializing in Information Security. Experienced in building distributed pipelines, custom compilers, and secure backend microservices.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="primary-button magnetic">inspect_work() ↓</a>
+                        <a href="mailto:hardikvikasjain@gmail.com" class="cli-button magnetic">copy_email()</a>
+                    </div>
+
+                    <div class="quick-stats">
+                        <div class="stat">
+                            <strong>9.15</strong>
+                            <span>CGPA</span>
+                        </div>
+                        <div class="stat">
+                            <strong>VIT</strong>
+                            <span>Vellore</span>
+                        </div>
+                        <div class="stat">
+                            <strong>CSE</strong>
+                            <span>InfoSec</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TERMINAL -->
+                <div class="hero-visual reveal">
+                    <div class="orbit orbit-one" aria-hidden="true"></div>
+                    <div class="orbit orbit-two" aria-hidden="true"></div>
+
+                    <div class="terminal">
+                        <div class="terminal-top" title="Drag to move">
+                            <div class="terminal-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="terminal-title">hardik@vit ~ %</div>
+                        </div>
+                        <div class="terminal-body" style="cursor: pointer;">
+                            <p><span class="green">const</span> developer = {</p>
+                            <p>&nbsp;&nbsp;name: <span class="yellow">"Hardik Vikas Jain"</span>,</p>
+                            <p>&nbsp;&nbsp;origin: <span class="yellow">"Udaipur, Rajasthan"</span>,</p>
+                            <p>&nbsp;&nbsp;major: <span class="yellow">"CSE InfoSec @ VIT"</span>,</p>
+                            <p>&nbsp;&nbsp;focus: [</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">"Compiler Engineering"</span>,</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">"RAG Pipelines"</span>,</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">"Systems Architecture"</span></p>
+                            <p>&nbsp;&nbsp;],</p>
+                            <p>&nbsp;&nbsp;status: <span class="green">"Ready to deploy"</span></p>
+                            <p>};</p>
+                            <br>
+                            <p><span class="green">→</span> building robust software <span class="typing-cursor">|</span></p>
+                        </div>
+                    </div>
+                    <div class="floating-badge"><span>✦</span> Ctrl + K to search</div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div></div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section reveal">
+            <div class="container">
+                <p class="section-label">01. OVERVIEW</p>
+                <h2 class="section-title">Engineering at the <span>Boundary.</span></h2>
+                <div class="about-layout">
+                    <div class="about-big-text">
+                        <span>I build production-grade</span> software architecture,
+                        <span>focusing on system performance</span> and data integrity.
+                    </div>
+                    <div class="about-content">
+                        <p>Based in Udaipur and studying at VIT Vellore, my core expertise lies in backend engineering, compiler design, and low-level systems programming.</p>
+                        <p>Whether building multi-pass compilers from scratch or enterprise search pipelines, I combine rigorous foundational theory with pragmatic implementation.</p>
+                        <div class="social-mini-links">
+                            <a href="https://github.com/hardikvikasjain" target="_blank">GitHub ↗</a>
+                            <a href="https://www.linkedin.com/in/hardik-vikas-jain-47972a359/" target="_blank">LinkedIn ↗</a>
+                            <a href="mailto:hardikvikasjain@gmail.com">Email ↗</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STACK (TECHNICAL MATRIX) -->
+        <section id="skills" class="section reveal">
+            <div class="container">
+                <p class="section-label">02. STACK</p>
+                <h2 class="section-title">Technical <span>Matrix & Competencies</span></h2>
+
+                <div class="skills-matrix">
+                    <div class="matrix-card">
+                        <div class="matrix-header">
+                            <span>LANGUAGES</span>
+                            <span>&lt;/&gt;</span>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Assembly</span>
+                        </div>
+                        <p class="matrix-desc">Low-level execution, compiler logic & systems scripting.</p>
+                    </div>
+
+                    <div class="matrix-card">
+                        <div class="matrix-header">
+                            <span>COMPILERS & SYSTEMS</span>
+                            <span>⚙️</span>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">Flex (Lex)</span>
+                            <span class="tech-tag">Bison (Yacc)</span>
+                            <span class="tech-tag">Symbol Tables</span>
+                            <span class="tech-tag">FastAPI</span>
+                        </div>
+                        <p class="matrix-desc">LALR(1) parsing, syntax trees, TAC generation & backend routing.</p>
+                    </div>
+
+                    <div class="matrix-card">
+                        <div class="matrix-header">
+                            <span>INFRASTRUCTURE & DATABASES</span>
+                            <span>🗄️</span>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">Git & GitHub</span>
+                        </div>
+                        <p class="matrix-desc">Containerized deployments, orchestral scaling & relational persistence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section reveal">
+            <div class="container">
+                <p class="section-label">03. REPOSITORIES</p>
+                <h2 class="section-title">Production <span>Implementations</span></h2>
+
+                <!-- Project 1: End-to-End Custom Compiler -->
+                <div class="project-horizontal">
+                    <div class="ph-left">
+                        <div class="ph-meta">
+                            <span class="ph-category">COMPILER CONSTRUCTION</span>
+                            <span class="ph-path">c/c++ / flex / bison / assembly</span>
+                        </div>
+                        <h3>End-to-End Custom Compiler</h3>
+                        <p>Engineered a complete multi-pass compiler translating a custom high-level programming language into executable machine code, comprehensively covering all six compilation phases. Built robust lexical scanners, LALR(1) parsers for AST generation, Three-Address Code (TAC), and mapped optimized IR into final Assembly instructions.</p>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">C/C++</span>
+                            <span class="tech-tag">Flex & Bison</span>
+                            <span class="tech-tag">Symbol Tables</span>
+                            <span class="tech-tag">Assembly</span>
+                        </div>
+                    </div>
+                    <div class="ph-right">
+                        <div class="ph-stats">
+                            <div>
+                                <span>PIPELINE</span>
+                                <strong>Lexical to Target Code</strong>
+                            </div>
+                            <div>
+                                <span>OPTIMIZATION</span>
+                                <strong>TAC IR & Code Generation</strong>
+                            </div>
+                        </div>
+                        <a href="https://github.com/hardikvikasjain" target="_blank" class="cli-button w-full">github_view_source()</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Enterprise Hybrid RAG Platform -->
+                <div class="project-horizontal">
+                    <div class="ph-left">
+                        <div class="ph-meta">
+                            <span class="ph-category">DISTRIBUTED SEARCH</span>
+                            <span class="ph-path">fastapi / docker / kubernetes</span>
+                        </div>
+                        <h3>Enterprise Hybrid RAG Platform</h3>
+                        <p>Architected a production-ready Retrieval-Augmented Generation microservice in FastAPI with sliding-window chunking. Implemented hybrid retrieval combining BM25 sparse keyword matching and dense vector embeddings scored via Reciprocal Rank Fusion (RRF) and cross-encoders.</p>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">Docker & K8s</span>
+                            <span class="tech-tag">BM25 / RRF</span>
+                            <span class="tech-tag">Vector Embeddings</span>
+                        </div>
+                    </div>
+                    <div class="ph-right">
+                        <div class="ph-stats">
+                            <div>
+                                <span>ARCHITECTURE</span>
+                                <strong>Microservice & RAG</strong>
+                            </div>
+                            <div>
+                                <span>SECURITY</span>
+                                <strong>API-Key Guards & Rate Limiting</strong>
+                            </div>
+                        </div>
+                        <a href="https://github.com/hardikvikasjain" target="_blank" class="cli-button w-full">github_view_source()</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: LAN Watchtower -->
+                <div class="project-horizontal">
+                    <div class="ph-left">
+                        <div class="ph-meta">
+                            <span class="ph-category">NETWORKING & TELEMETRY</span>
+                            <span class="ph-path">python / scapy / customtkinter</span>
+                        </div>
+                        <h3>LAN Watchtower — Network Telemetry</h3>
+                        <p>Developed an asynchronous desktop network scanner performing concurrent multi-threaded ARP/ICMP sweeps across subnet ranges. Automated targeted TCP port inspection (HTTP, SSH, SMB, FTP) with SQLite WAL history logging and desktop alert notifications.</p>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scapy</span>
+                            <span class="tech-tag">CustomTkinter</span>
+                            <span class="tech-tag">SQLite WAL</span>
+                        </div>
+                    </div>
+                    <div class="ph-right">
+                        <div class="ph-stats">
+                            <div>
+                                <span>EXECUTION</span>
+                                <strong>Multi-threaded Sweeps</strong>
+                            </div>
+                            <div>
+                                <span>STORAGE</span>
+                                <strong>SQLite Write-Ahead Logging</strong>
+                            </div>
+                        </div>
+                        <a href="https://github.com/hardikvikasjain" target="_blank" class="cli-button w-full">github_view_source()</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="section reveal">
+            <div class="container">
+                <p class="section-label">04. CREDENTIALS</p>
+                <h2 class="section-title">Academic <span>Timeline</span></h2>
+                <div class="education-card" style="background: #080808; border-color: #1a1a1a;">
+                    <div class="education-left">
+                        <span class="education-year">JULY 2024 — MAY 2028</span>
+                        <h3>Vellore Institute of Technology</h3>
+                        <p>B.Tech in Computer Science and Engineering (Information Security)</p>
+                        <p class="location" style="font-family: 'Space Mono', monospace; font-size:0.75rem; color:#555; margin-top:10px;">Vellore, Tamil Nadu</p>
+                    </div>
+                    <div class="cgpa">
+                        <span>CUMULATIVE CGPA</span>
+                        <strong>9.15</strong>
+                        <small>/ 10.00</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS -->
+        <section id="achievements" class="section reveal">
+            <div class="container">
+                <p class="section-label">05. VALIDATION</p>
+                <h2 class="section-title">Achievements <span>& Certifications</span></h2>
+                
+                <div class="achievements-matrix">
+                    <div class="achieve-card">
+                        <div class="achieve-icon">🏆</div>
+                        <span class="achieve-category">COMPETITION</span>
+                        <h3>CIVIL HUNT 1st Position</h3>
+                        <p>Secured 1st Position in the CIVIL HUNT competition at RIVERA Cultural & Sports Fest. Demonstrated applied tactical problem solving.</p>
+                        <div class="achieve-footer">Verified Winner</div>
+                    </div>
+
+                    <div class="achieve-card">
+                        <div class="achieve-icon">💻</div>
+                        <span class="achieve-category">HACKATHON</span>
+                        <h3>VIT Code to Innovate</h3>
+                        <p>Participant and Technical Contributor, designing modular system architectures and scalable components.</p>
+                        <div class="achieve-footer">Verified Contributor</div>
+                    </div>
+
+                    <div class="achieve-card">
+                        <div class="achieve-icon">📚</div>
+                        <span class="achieve-category">FOUNDATIONS</span>
+                        <h3>Core Coursework</h3>
+                        <p>Advanced proficiency in Data Structures & Algorithms, Compiler Design, Operating Systems, Computer Networks, and Applied Cryptography.</p>
+                        <div class="achieve-footer">VIT Vellore</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section reveal">
+            <div class="container">
+                <p class="section-label" style="text-align: left;">06. REAL-TIME ENDPOINTS</p>
+                <h2 class="section-title" style="text-align: left; margin-bottom: 40px;">Establish <span>Direct Transmission</span></h2>
+                
+                <div class="contact-terminal-layout">
+                    <!-- Left Side -->
+                    <div class="contact-left">
+                        <p class="contact-desc">Send a verified payload directly through this interface. Form submissions route straight to my primary communication daemon.</p>
+
+                        <a href="mailto:hardikvikasjain@gmail.com" class="dispatch-card magnetic">
+                            <div class="dispatch-icon">✉️</div>
+                            <div class="dispatch-text">
+                                <span>DIRECT DISPATCH</span>
+                                <strong>hardikvikasjain@gmail.com</strong>
+                            </div>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/hardik-vikas-jain-47972a359/" target="_blank" rel="noopener noreferrer" class="dispatch-card magnetic">
+                            <div class="dispatch-icon">in</div>
+                            <div class="dispatch-text">
+                                <span>LINKEDIN PROFILE</span>
+                                <strong>linkedin.com/in/hardik-vikas-jain-47972a359</strong>
+                            </div>
+                        </a>
+
+                        <div class="dispatch-card">
+                            <div class="dispatch-icon">📍</div>
+                            <div class="dispatch-text">
+                                <span>COORDINATES</span>
+                                <strong>Udaipur, Rajasthan / Vellore, TN</strong>
+                            </div>
+                        </div>
+
+                        <div class="verified-profiles">
+                            <span class="vp-label">// VERIFIED CHANNELS</span>
+                            <div class="vp-icons">
+                                <a href="https://github.com/hardikvikasjain" target="_blank" class="magnetic">GH</a>
+                                <a href="https://www.linkedin.com/in/hardik-vikas-jain-47972a359/" target="_blank" class="magnetic">IN</a>
+                                <a href="mailto:hardikvikasjain@gmail.com" class="magnetic">@</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side Terminal Form -->
+                    <div class="contact-right">
+                        <form class="terminal-form" onsubmit="event.preventDefault(); window.location.href='mailto:hardikvikasjain@gmail.com';">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>SENDER IDENTIFIER *</label>
+                                    <input type="text" placeholder="name / handle" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>RETURN ADDRESS *</label>
+                                    <input type="email" placeholder="user@domain.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>TOPIC SPECIFICATION *</label>
+                                <input type="text" placeholder="e.g. Systems Engineer Role / Compiler Design" required>
+                            </div>
+                            <div class="form-group">
+                                <label>PAYLOAD MESSAGE *</label>
+                                <textarea rows="5" placeholder="Type transmission..." required></textarea>
+                            </div>
+                            <button type="submit" class="primary-button w-full magnetic" style="margin-top: 10px; font-family: 'Space Mono', monospace;">dispatch_payload() ↗</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <span class="footer-logo">HVJ<span>_</span></span>
+                <p>System Kernel // 2026 REVISION • HARDIK VIKAS JAIN</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/hardikvikasjain" target="_blank">// github</a>
+                <a href="https://www.linkedin.com/in/hardik-vikas-jain-47972a359/" target="_blank">// linkedin</a>
+                <a href="mailto:hardikvikasjain@gmail.com">// email</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- COMMAND PALETTE (CTRL + K) -->
+    <div class="command-palette-overlay" id="cmd-palette" aria-hidden="true">
+        <div class="command-palette">
+            <div class="cmd-header">
+                <span class="cmd-icon">></span>
+                <input type="text" id="cmd-input" placeholder="Search portfolio... (e.g., projects, github)" autocomplete="off" spellcheck="false">
+                <span class="cmd-esc">ESC</span>
+            </div>
+            <ul class="cmd-list" id="cmd-list">
+                <li><a href="#about" data-text="about profile hardik"><span>→</span> Go to About</a></li>
+                <li><a href="#skills" data-text="skills stack languages"><span>→</span> Go to Stack</a></li>
+                <li><a href="#projects" data-text="projects work code"><span>→</span> Go to Projects</a></li>
+                <li><a href="#education" data-text="education vit vellore cgpa"><span>→</span> Go to Education</a></li>
+                <li><a href="https://github.com/hardikvikasjain" target="_blank" data-text="github code repos"><span>↗</span> Open GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/hardik-vikas-jain-47972a359/" target="_blank" data-text="linkedin connect"><span>↗</span> Open LinkedIn</a></li>
+                <li><a href="Resume.pdf" target="_blank" data-text="download resume cv pdf"><span>↓</span> Download Resume</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- SYSTEM TELEMETRY HUD -->
+    <div class="system-hud" aria-hidden="true">
+        <div class="hud-header">SYS_MONITOR <span>v2.0</span></div>
+        <div class="hud-stats">
+            <div><span class="hud-label">UPTIME</span> <span id="hud-uptime" class="green">00:00:00</span></div>
+            <div><span class="hud-label">LOCATION</span> <span>Udaipur / Vellore</span></div>
+            <div><span class="hud-label">ROUTE</span> <span>UDP ➔ VIT (32ms)</span></div>
+            <div><span class="hud-label">STATUS</span> <span>Active Placement</span></div>
+        </div>
+        <div class="hud-matrix">TH_PROC: λ = 2.14, det(A) ≠ 0</div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
